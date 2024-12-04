@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <% const name="oumayma badri " %>
+    <h1>hello my brother to ejs course</h1>
+    <br>
+    <br>
+    <h2>hello <%=nom %></h2>
+
+    <h1><%= name %></h1>
+
+    <h3>Add book form :</h3>
+    <form method="post" action="/api/products">
+      <div>
+        <label for="">Name :</label>
+        <input id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="">Price :</label>
+        <input id="price" name="price" required />
+      </div>
+      <br>
+      <button type="submit">save</button>
+    </form>
+  </body>
+</html>
